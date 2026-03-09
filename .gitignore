@@ -1,0 +1,26 @@
+# 虚拟环境
+.venv/
+env/
+venv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 模型权重与缓存 (非常重要，防止上传 1GB 的 BGE 模型)
+cat_cache/
+.cache/
+models/
+
+# 数据与索引 (本地测试产生的持久化文件)
+*.index
+*.json
+temp_*/
+
+# IDE 配置文件
+.vscode/
+.idea/
+
+# 敏感信息
+.env
